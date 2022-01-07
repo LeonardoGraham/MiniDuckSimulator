@@ -4,6 +4,6 @@ public class Squeak : IQuackBehavior
 {
     public void Quack()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("Squeak");
     }
 }
