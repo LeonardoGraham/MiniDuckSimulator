@@ -6,4 +6,4 @@ public class Squeak : IQuackBehavior
     {
         Console.WriteLine("Squeak");
     }
-}
+}   
