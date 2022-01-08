@@ -2,8 +2,8 @@
 
 public abstract class Duck
 {
-    protected IFlyBehavior FlyBehavior;
-    protected IQuackBehavior QuackBehavior;
+    protected IFlyBehavior? FlyBehavior;
+    protected IQuackBehavior? QuackBehavior;
     
     public abstract void Display();
 
@@ -19,12 +19,12 @@ public abstract class Duck
     
     public void PerformFly()
     {
-        FlyBehavior.Fly();
+        FlyBehavior?.Fly();
     }
 
     public void PerformQuack()
     {
-        QuackBehavior.Quack();
+        QuackBehavior?.Quack();
     }
 
     public void Swim()
